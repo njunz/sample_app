@@ -4,6 +4,13 @@ describe PagesController do
 
   render_views
 
+  before(:each) do
+    #
+    # Define @base_title here
+    #
+  end
+  
+
   describe "GET 'home'" do
     it "should be successful" do
       get 'home'
